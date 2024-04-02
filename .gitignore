@@ -1,0 +1,29 @@
+# Ignorar arquivos compilados
+*.class
+*.jar
+*.war
+
+# Ignorar arquivos de configuração específicos para o seu ambiente de desenvolvimento
+.idea/
+.vscode/
+*.iml
+
+# Ignorar arquivos de build gerados
+/target/
+/build/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+
+# Ignorar arquivos sensíveis
+config.properties
+database.properties
+
+# Ignorar arquivos de dependências específicas da linguagem
+node_modules/
+venv/
+
